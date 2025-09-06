@@ -56,7 +56,7 @@ def post_discord(ev):
         embed["thumbnail"] = {"url": ev["thumb"]}
 
     payload = {
-        "username": "Punchline • This Day in History",
+        "username": "This Day in History",
         "embeds": [embed]
     }
 
